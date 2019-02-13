@@ -4,9 +4,9 @@
 ![alt text](1a.png)<br/>
 1b: Integrated PostgreSQL; screenshot of datadog-agent status<br/>
 ![alt text](1b.png)<br/>
-1.Bonus: Not sure how to override the collection interval outside of modifying the yaml file, but you could set up a cron job and script to monitor a certain metric, send the data points to Datadog via API, and view/add a Dashboard.<br/>
+1 Bonus: Not sure how to override the collection interval outside of modifying the yaml file, but you could set up a cron job and script to monitor a certain metric, send the data points to Datadog via API, and view/add a Dashboard.<br/>
 <br/>
-Part 2: Visualizing Data<br/>
+<ins>Part 2: Visualizing Data</ins><br/>
 2a. I had trouble getting my script to create the 2nd requirement (integration metric with anomaly function applied).  I created a Timeboard manually with the required info,  requested all Timeboards via the API to get the id, and finally got that id's definition which returned: <br/>
 <br/>
 {"q":"anomalies(avg:postgresql.db.count{host:Lawrences-MacBook-Pro.local}, 'basic', 2)","style":{"palette":"dog_classic","width":"normal","type":"solid"}<br/>
@@ -40,9 +40,10 @@ curl  -X POST -H "Content-type: application/json" -d '{
       "read_only": "True"
 }' "https://api.datadoghq.com/api/v1/dash?api_key=<API_KEY>&application_key=<APP.KEY>"<br/>
 <br/>
-Bonus: The anomaly function highlights any unexpected behavior based on past data and a standard deviation defined by the user.<br/>
+2 Bonus: The anomaly function highlights any unexpected behavior based on past data and a standard deviation defined by the user.<br/>
 <br/>
-Part 3: Monitoring Data
-3a:
-
-
+<ins>Part 3: Monitoring Data</ins>
+3a: Screenshots of Monitor Emails
+[alt text](3alert.png)
+[alt text](3warn.png)
+[alt text](3nodata.png)
