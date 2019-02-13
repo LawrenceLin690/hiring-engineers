@@ -1,5 +1,5 @@
 Your answers to the questions go here.
 
 
-test
-![alt text](logo.png "test asdamdma;al;a ;as;dadma;md;a;dam;ad;amd;amd;a;a")
+test<br/>
+![alt text](logo.png)
