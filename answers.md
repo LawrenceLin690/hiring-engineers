@@ -1,9 +1,10 @@
-Part 1: Collecting Metrics<br/>
+<ins>Part 1: Collecting Metrics</ins><br/>
 1a: Screenshot of Host Map showing tags set via Agent Config file<br/>
-![alt text](1a.png)
+<br/>
+![alt text](1a.png)<br/>
 1b: Integrated PostgreSQL; screenshot of datadog-agent status<br/>
 ![alt text](1b.png)<br/>
-Bonus: Not sure how to override the collection interval outside of modifying the yaml file, but you could set up a cron job and script to monitor a certain metric, send the data points to Datadog via API, and view/add a Dashboard.<br/>
+1.Bonus: Not sure how to override the collection interval outside of modifying the yaml file, but you could set up a cron job and script to monitor a certain metric, send the data points to Datadog via API, and view/add a Dashboard.<br/>
 <br/>
 Part 2: Visualizing Data<br/>
 2a. I had trouble getting my script to create the 2nd requirement (integration metric with anomaly function applied).  I created a Timeboard manually with the required info,  requested all Timeboards via the API to get the id, and finally got that id's definition which returned: <br/>
