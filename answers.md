@@ -42,8 +42,20 @@ curl  -X POST -H "Content-type: application/json" -d '{
 <br/>
 2 Bonus: The anomaly function highlights any unexpected behavior based on past data and a standard deviation defined by the user.<br/>
 <br/>
-<ins>Part 3: Monitoring Data</ins>
-3a: Screenshots of Monitor Emails
-[alt text](3alert.png)
-[alt text](3warn.png)
-[alt text](3nodata.png)
+<ins>Part 3: Monitoring Data</ins><br/>
+3a: Screenshots of Monitor Emails<br/>
+![alt text](3alert.png)
+![alt text](3warn.png)
+![alt text](3nodata.png)<br/>
+3 Bonus: Screenshot of Downtime Email<br/>
+![alt text](3bonus.png)<br/>
+<br/>
+<ins>Part 4: Collecting APM Data</ins><br/>
+4a: Link to APM Dashboard: https://app.datadoghq.com/dashboard/q6b-u6u-y38/app-performance-apm?tile_size=m&page=0&is_auto=false&from_ts=1550096400000&to_ts=1550100000000&live=true<br/>
+4b: Screenshot of APM Dashboard<br/>
+![alt text](4b.png)<br/>
+4c: Fully instrumented app<br/>
+I used the Flask app that was provided in the prompt.<br/>
+4 Bonus: A service is a grouping of processes that do set of functions, an application.  A resource is each function for that service, often a specific request for a specific endpoint, like GET or POST request for a complete URL.<br/>
+<ins>Part 5: Final Question</ins><br/>
+5a: Algo trading firm like to monitoring their networks/infrastructure/apps and metrics that could identify latency/connection issues are useful.  Otherwise, using the skyscanner API to find anomalous flight prices.
