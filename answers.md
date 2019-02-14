@@ -57,5 +57,6 @@ curl  -X POST -H "Content-type: application/json" -d '{
 4c: Fully instrumented app<br/>
 I used the Flask app that was provided in the prompt.<br/>
 4 Bonus: A service is a grouping of processes that do set of functions, an application.  A resource is each function for that service, often a specific request for a specific endpoint, like GET or POST request for a complete URL.<br/>
+<br/>
 <ins>Part 5: Final Question</ins><br/>
 5a: Algo trading firm like to monitoring their networks/infrastructure/apps and metrics that could identify latency/connection issues are useful.  Otherwise, using the skyscanner API to find anomalous flight prices.
