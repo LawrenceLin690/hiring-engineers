@@ -1,4 +1,4 @@
-<ins>Part 1: Collecting Metrics</ins><br/>
+<ins>Part 1: Collecting Metrics Test</ins><br/>
 1a: Screenshot of Host Map showing tags set via Agent Config file<br/>
 <br/>
 ![alt text](1a.png)<br/>
